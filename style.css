@@ -1,0 +1,142 @@
+
+
+
+body{
+ box-sizing: border-box;
+ background: lightskyblue;
+}
+.container{
+  box-shadow: inset 5px 5px 12px #ffffff,
+                       5px 5px 12px rgba(0, 0, 0, .16);
+  height: 950px;
+  width: 380px;
+  background-color: white;
+  box-shadow: ;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: serif;
+  margin-left:50px;
+}
+form{
+    padding :10px 10px;
+}
+.form-control{
+    margin-top:30px;
+    position:relative;
+    paddin-bottom:20px;
+}
+.form-control i{
+    position:absolute;
+    right:50px;
+    visibility:hidden;
+    top:90px;
+}
+
+.form-control small{
+    visibility: hidden;
+    position: absolute;
+    left:0;
+    bottom:0;
+    color:red;
+}
+.form-control input{
+    margin-bottom:20px;
+}
+.form-control.sucess input{
+    border:2px solid green;
+}
+.form-control.error input{
+    border:2px solid red;
+}
+.form-control.sucess i.fa-check-circle{
+    visibility: visible;
+    color:green;
+}
+.form-control.error i.fa-exclamation-circle{
+    visibility: visible;
+    color:red;
+}
+.form-control.error small{
+    visibility: visible;
+    color:red;
+}
+.form-control input{
+    width:300px;
+    height: 30px;
+    border-radius:15px;
+    border:2px solid black;
+    padding:10px;
+    font-size:20px;
+    margin-top:50px;
+    font-family:serif;
+    cursor:pointer;
+}
+.header{
+   margin-top:50px;
+   margin-bottom:30px;
+    text-shadow:5px 10px 2px coral,
+                -3px 6px 5px purple;
+    font-weight:bolder;
+    text-align:center;
+    font-size:30px;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(50, 70, 80, .99);        
+}
+button{
+    width:280px;
+    margin-left:42px;
+    background:darkviolet;
+    color:white;
+    height:40px;
+    text-align:center;
+    border-radius:20px;
+    border-style:none;
+    margin-top:50px;
+    font-weight:bolder;
+    font-family:"times new roman";
+    transition:0.8s ease-in;
+}
+label{
+    font-weight:bold;
+    font-size:25px;
+}
+button:hover{
+    background: gold;
+    color:coral;
+}
+
+
+.main{
+    margin-top:100px;
+    width:400px;
+    height:500px;
+    background: aquamarine;
+    box-shadow: outset -5px -5px 12px red,
+               inset 5px 5px 12px rgba(0, 0, 0, .16);
+    padding: center;
+    margin-left:100px;
+    border-radius:25px;
+}
+.main h1{
+    color:white;
+    font-family:"times new roman";
+    font-weight:bold;
+    text-align:center;
+}
+
+.main img{
+    padding-left:120px;
+    padding-top:20px;
+    
+}
+.i i{
+    color:green;
+}
+.main h2{
+    font-family:serif;
+    font-weight:400;
+    text-align:center;
+}
+.hidden{
+    display:none;
+}
